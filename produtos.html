@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minha Loja - Produtos</title>
+  <title>Produtos - Minha Loja</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="js/cart.js"></script>
 </head>
@@ -30,54 +30,60 @@
   <!-- Produtos -->
   <section class="max-w-7xl mx-auto px-4 py-32">
     <h2 class="text-2xl font-bold mb-8 text-gray-800">Todos os Produtos</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
-      <!-- Celular -->
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://images.unsplash.com/photo-1510557880182-3b2d3d7c2a2f?auto=format&fit=crop&w=600&q=80" alt="Celular" class="w-full rounded-lg mb-4">
-        <h3 class="font-semibold text-lg mb-2">Celular</h3>
-        <p class="text-gray-600 mb-4">R$ 1.299,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Celular" data-price="1299.90">Adicionar ao Carrinho</button>
+      <!-- Produto 1 -->
+      <div class="bg-white shadow-lg rounded-xl p-6">
+        <img src="https://source.unsplash.com/300x300/?smartphone" alt="Celular" class="w-full rounded-lg mb-4">
+        <h3 class="text-lg font-semibold">Smartphone X</h3>
+        <p class="text-gray-600">R$ 2.499,00</p>
+        <button class="add-to-cart mt-3 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          data-name="Smartphone X" data-price="2499">Adicionar ao Carrinho</button>
       </div>
 
-      <!-- Tênis -->
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://images.unsplash.com/photo-1600180758895-74fdd2f25ebd?auto=format&fit=crop&w=600&q=80" alt="Tênis" class="w-full rounded-lg mb-4">
-        <h3 class="font-semibold text-lg mb-2">Tênis</h3>
-        <p class="text-gray-600 mb-4">R$ 299,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Tênis" data-price="299.90">Adicionar ao Carrinho</button>
+      <!-- Produto 2 -->
+      <div class="bg-white shadow-lg rounded-xl p-6">
+        <img src="https://source.unsplash.com/300x300/?shoes" alt="Tênis" class="w-full rounded-lg mb-4">
+        <h3 class="text-lg font-semibold">Tênis Esportivo</h3>
+        <p class="text-gray-600">R$ 399,00</p>
+        <button class="add-to-cart mt-3 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          data-name="Tênis Esportivo" data-price="399">Adicionar ao Carrinho</button>
       </div>
 
-      <!-- Relógio -->
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80" alt="Relógio" class="w-full rounded-lg mb-4">
-        <h3 class="font-semibold text-lg mb-2">Relógio</h3>
-        <p class="text-gray-600 mb-4">R$ 499,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Relógio" data-price="499.90">Adicionar ao Carrinho</button>
+      <!-- Produto 3 -->
+      <div class="bg-white shadow-lg rounded-xl p-6">
+        <img src="https://source.unsplash.com/300x300/?watch" alt="Relógio" class="w-full rounded-lg mb-4">
+        <h3 class="text-lg font-semibold">Relógio Moderno</h3>
+        <p class="text-gray-600">R$ 699,00</p>
+        <button class="add-to-cart mt-3 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          data-name="Relógio Moderno" data-price="699">Adicionar ao Carrinho</button>
       </div>
 
-      <!-- Bolsa -->
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://images.unsplash.com/photo-1580910051074-7c7d2e9a3f52?auto=format&fit=crop&w=600&q=80" alt="Bolsa" class="w-full rounded-lg mb-4">
-        <h3 class="font-semibold text-lg mb-2">Bolsa</h3>
-        <p class="text-gray-600 mb-4">R$ 199,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Bolsa" data-price="199.90">Adicionar ao Carrinho</button>
+      <!-- Produto 4 -->
+      <div class="bg-white shadow-lg rounded-xl p-6">
+        <img src="https://source.unsplash.com/300x300/?backpack" alt="Mochila" class="w-full rounded-lg mb-4">
+        <h3 class="text-lg font-semibold">Mochila Escolar</h3>
+        <p class="text-gray-600">R$ 249,00</p>
+        <button class="add-to-cart mt-3 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          data-name="Mochila Escolar" data-price="249">Adicionar ao Carrinho</button>
       </div>
 
-      <!-- Fone -->
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://images.unsplash.com/photo-1518444065439-2f7e5f6b7f1f?auto=format&fit=crop&w=600&q=80" alt="Fone" class="w-full rounded-lg mb-4">
-        <h3 class="font-semibold text-lg mb-2">Fone de Ouvido</h3>
-        <p class="text-gray-600 mb-4">R$ 149,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Fone de Ouvido" data-price="149.90">Adicionar ao Carrinho</button>
+      <!-- Produto 5 -->
+      <div class="bg-white shadow-lg rounded-xl p-6">
+        <img src="https://source.unsplash.com/300x300/?headphones" alt="Fone de Ouvido" class="w-full rounded-lg mb-4">
+        <h3 class="text-lg font-semibold">Fone de Ouvido</h3>
+        <p class="text-gray-600">R$ 199,00</p>
+        <button class="add-to-cart mt-3 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          data-name="Fone de Ouvido" data-price="199">Adicionar ao Carrinho</button>
       </div>
 
-      <!-- Notebook -->
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Notebook" class="w-full rounded-lg mb-4">
-        <h3 class="font-semibold text-lg mb-2">Notebook</h3>
-        <p class="text-gray-600 mb-4">R$ 3.499,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Notebook" data-price="3499.90">Adicionar ao Carrinho</button>
+      <!-- Produto 6 -->
+      <div class="bg-white shadow-lg rounded-xl p-6">
+        <img src="https://source.unsplash.com/300x300/?laptop" alt="Notebook" class="w-full rounded-lg mb-4">
+        <h3 class="text-lg font-semibold">Notebook Pro</h3>
+        <p class="text-gray-600">R$ 4.999,00</p>
+        <button class="add-to-cart mt-3 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          data-name="Notebook Pro" data-price="4999">Adicionar ao Carrinho</button>
       </div>
 
     </div>
