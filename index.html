@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minha Loja - Início</title>
+  <title>Minha Loja</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="js/cart.js"></script>
 </head>
@@ -16,6 +16,7 @@
       <nav class="flex items-center gap-6">
         <a href="index.html" class="text-gray-600 hover:text-gray-900">Início</a>
         <a href="produtos.html" class="text-gray-600 hover:text-gray-900">Produtos</a>
+        <a href="carrinho.html" class="text-gray-600 hover:text-gray-900">Carrinho</a>
         <div class="relative">
           <button id="cart-btn" class="flex items-center space-x-2">
             🛒
@@ -26,39 +27,39 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://picsum.photos/1200/600');">
-    <div class="bg-black bg-opacity-50 p-10 rounded-xl text-center text-white">
-      <h2 class="text-4xl font-bold mb-4">Bem-vindo à Minha Loja</h2>
-      <p class="text-lg mb-6">Os melhores produtos com preços imperdíveis</p>
-      <a href="produtos.html" class="bg-blue-500 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600">Ver Produtos</a>
-    </div>
+  <!-- Banner -->
+  <section class="bg-blue-600 text-white py-32 mt-16 text-center">
+    <h2 class="text-4xl font-bold mb-4">Bem-vindo à Minha Loja</h2>
+    <p class="text-lg">Os melhores produtos com preços incríveis!</p>
   </section>
 
-  <!-- Produtos em destaque -->
+  <!-- Produtos em Destaque -->
   <section class="max-w-7xl mx-auto px-4 py-16">
-    <h2 class="text-2xl font-bold mb-8 text-gray-800">Produtos em Destaque</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      
+    <h2 class="text-2xl font-bold mb-8 text-gray-800">Destaques</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+      <!-- Celular -->
       <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://via.placeholder.com/300" alt="Produto 1" class="w-full rounded-lg mb-4">
-        <h3 class="font-semibold text-lg mb-2">Produto 1</h3>
-        <p class="text-gray-600 mb-4">R$ 99,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Produto 1">Adicionar ao Carrinho</button>
+        <img src="https://images.unsplash.com/photo-1510557880182-3b2d3d7c2a2f?auto=format&fit=crop&w=600&q=80" alt="Celular" class="w-full rounded-lg mb-4">
+        <h3 class="font-semibold text-lg mb-2">Celular</h3>
+        <p class="text-gray-600 mb-4">R$ 1.299,90</p>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Celular" data-price="1299.90">Adicionar ao Carrinho</button>
       </div>
 
+      <!-- Tênis -->
       <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://via.placeholder.com/300" alt="Produto 2" class="w-full rounded-lg mb-4">
-        <h3 class="font-semibold text-lg mb-2">Produto 2</h3>
-        <p class="text-gray-600 mb-4">R$ 149,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Produto 2">Adicionar ao Carrinho</button>
+        <img src="https://images.unsplash.com/photo-1600180758895-74fdd2f25ebd?auto=format&fit=crop&w=600&q=80" alt="Tênis" class="w-full rounded-lg mb-4">
+        <h3 class="font-semibold text-lg mb-2">Tênis</h3>
+        <p class="text-gray-600 mb-4">R$ 299,90</p>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Tênis" data-price="299.90">Adicionar ao Carrinho</button>
       </div>
 
+      <!-- Relógio -->
       <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://via.placeholder.com/300" alt="Produto 3" class="w-full rounded-lg mb-4">
-        <h3 class="font-semibold text-lg mb-2">Produto 3</h3>
-        <p class="text-gray-600 mb-4">R$ 199,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Produto 3">Adicionar ao Carrinho</button>
+        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80" alt="Relógio" class="w-full rounded-lg mb-4">
+        <h3 class="font-semibold text-lg mb-2">Relógio</h3>
+        <p class="text-gray-600 mb-4">R$ 499,90</p>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Relógio" data-price="499.90">Adicionar ao Carrinho</button>
       </div>
 
     </div>

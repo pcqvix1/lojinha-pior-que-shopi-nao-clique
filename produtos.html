@@ -16,6 +16,7 @@
       <nav class="flex items-center gap-6">
         <a href="index.html" class="text-gray-600 hover:text-gray-900">Início</a>
         <a href="produtos.html" class="text-gray-600 hover:text-gray-900">Produtos</a>
+        <a href="carrinho.html" class="text-gray-600 hover:text-gray-900">Carrinho</a>
         <div class="relative">
           <button id="cart-btn" class="flex items-center space-x-2">
             🛒
@@ -31,46 +32,52 @@
     <h2 class="text-2xl font-bold mb-8 text-gray-800">Todos os Produtos</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
+      <!-- Celular -->
       <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://via.placeholder.com/300" alt="Celular" class="w-full rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1510557880182-3b2d3d7c2a2f?auto=format&fit=crop&w=600&q=80" alt="Celular" class="w-full rounded-lg mb-4">
         <h3 class="font-semibold text-lg mb-2">Celular</h3>
         <p class="text-gray-600 mb-4">R$ 1.299,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Celular">Adicionar ao Carrinho</button>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Celular" data-price="1299.90">Adicionar ao Carrinho</button>
       </div>
 
+      <!-- Tênis -->
       <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://via.placeholder.com/300" alt="Tênis" class="w-full rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1600180758895-74fdd2f25ebd?auto=format&fit=crop&w=600&q=80" alt="Tênis" class="w-full rounded-lg mb-4">
         <h3 class="font-semibold text-lg mb-2">Tênis</h3>
         <p class="text-gray-600 mb-4">R$ 299,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Tênis">Adicionar ao Carrinho</button>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Tênis" data-price="299.90">Adicionar ao Carrinho</button>
       </div>
 
+      <!-- Relógio -->
       <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://via.placeholder.com/300" alt="Relógio" class="w-full rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80" alt="Relógio" class="w-full rounded-lg mb-4">
         <h3 class="font-semibold text-lg mb-2">Relógio</h3>
         <p class="text-gray-600 mb-4">R$ 499,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Relógio">Adicionar ao Carrinho</button>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Relógio" data-price="499.90">Adicionar ao Carrinho</button>
       </div>
 
+      <!-- Bolsa -->
       <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://via.placeholder.com/300" alt="Bolsa" class="w-full rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1580910051074-7c7d2e9a3f52?auto=format&fit=crop&w=600&q=80" alt="Bolsa" class="w-full rounded-lg mb-4">
         <h3 class="font-semibold text-lg mb-2">Bolsa</h3>
         <p class="text-gray-600 mb-4">R$ 199,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Bolsa">Adicionar ao Carrinho</button>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Bolsa" data-price="199.90">Adicionar ao Carrinho</button>
       </div>
 
+      <!-- Fone -->
       <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://via.placeholder.com/300" alt="Fone de Ouvido" class="w-full rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1518444065439-2f7e5f6b7f1f?auto=format&fit=crop&w=600&q=80" alt="Fone" class="w-full rounded-lg mb-4">
         <h3 class="font-semibold text-lg mb-2">Fone de Ouvido</h3>
         <p class="text-gray-600 mb-4">R$ 149,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Fone de Ouvido">Adicionar ao Carrinho</button>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Fone de Ouvido" data-price="149.90">Adicionar ao Carrinho</button>
       </div>
 
+      <!-- Notebook -->
       <div class="bg-white shadow-lg rounded-xl p-6 text-center">
-        <img src="https://via.placeholder.com/300" alt="Notebook" class="w-full rounded-lg mb-4">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80" alt="Notebook" class="w-full rounded-lg mb-4">
         <h3 class="font-semibold text-lg mb-2">Notebook</h3>
         <p class="text-gray-600 mb-4">R$ 3.499,90</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Notebook">Adicionar ao Carrinho</button>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Notebook" data-price="3499.90">Adicionar ao Carrinho</button>
       </div>
 
     </div>
