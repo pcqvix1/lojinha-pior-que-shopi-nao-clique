@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja - Início</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="js/cart.js"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-800">Minha Loja</h1>
+      <nav class="flex items-center gap-6">
+        <a href="index.html" class="text-gray-600 hover:text-gray-900">Início</a>
+        <a href="produtos.html" class="text-gray-600 hover:text-gray-900">Produtos</a>
+        <div class="relative">
+          <button id="cart-btn" class="flex items-center space-x-2">
+            🛒
+            <span id="cart-count" class="bg-red-500 text-white text-xs rounded-full px-2 py-0.5">0</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://picsum.photos/1200/600');">
+    <div class="bg-black bg-opacity-50 p-10 rounded-xl text-center text-white">
+      <h2 class="text-4xl font-bold mb-4">Bem-vindo à Minha Loja</h2>
+      <p class="text-lg mb-6">Os melhores produtos com preços imperdíveis</p>
+      <a href="produtos.html" class="bg-blue-500 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600">Ver Produtos</a>
+    </div>
+  </section>
+
+  <!-- Produtos em destaque -->
+  <section class="max-w-7xl mx-auto px-4 py-16">
+    <h2 class="text-2xl font-bold mb-8 text-gray-800">Produtos em Destaque</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <div class="bg-white shadow-lg rounded-xl p-6 text-center">
+        <img src="https://via.placeholder.com/300" alt="Produto 1" class="w-full rounded-lg mb-4">
+        <h3 class="font-semibold text-lg mb-2">Produto 1</h3>
+        <p class="text-gray-600 mb-4">R$ 99,90</p>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Produto 1">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-xl p-6 text-center">
+        <img src="https://via.placeholder.com/300" alt="Produto 2" class="w-full rounded-lg mb-4">
+        <h3 class="font-semibold text-lg mb-2">Produto 2</h3>
+        <p class="text-gray-600 mb-4">R$ 149,90</p>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Produto 2">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-xl p-6 text-center">
+        <img src="https://via.placeholder.com/300" alt="Produto 3" class="w-full rounded-lg mb-4">
+        <h3 class="font-semibold text-lg mb-2">Produto 3</h3>
+        <p class="text-gray-600 mb-4">R$ 199,90</p>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" data-name="Produto 3">Adicionar ao Carrinho</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Minha Loja. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
